@@ -94,7 +94,9 @@ export default function HomePage() {
             
             <h1 className="text-3xl sm:text-4xl md:text-7xl font-serif font-bold mb-6 leading-tight break-words">
               El Latido de <br/>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">Nuestra Tierra</span>
+              <span className="text-primary sm:text-transparent sm:bg-clip-text sm:bg-gradient-to-r sm:from-primary sm:to-accent">
+               Nuestra Tierra
+              </span>
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
