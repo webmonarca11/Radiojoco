@@ -5,32 +5,32 @@ import { Radio, ArrowLeft } from "lucide-react";
 
 const videos = [
   {
-    id: "TU_ID_AQUI_1",
+    id: "JF3fUOGfFkk",
     title: "Transmisión en Vivo",
     description: "Disfruta de nuestra transmisión en vivo desde los estudios de Radio Monarca 106.7 FM.",
   },
   {
-    id: "TU_ID_AQUI_2",
+    id: "BeydC_RBRJg",
     title: "Programa Especial",
     description: "Un programa especial dedicado a la cultura y tradiciones de Contepec, Michoacán.",
   },
   {
-    id: "TU_ID_AQUI_3",
+    id: "Wjo5ukOz1ZI",
     title: "Noticias Locales",
     description: "Las noticias más importantes de nuestra comunidad, al momento.",
   },
   {
-    id: "TU_ID_AQUI_4",
+    id: "Hpuxv4TuqnM",
     title: "Música Regional",
     description: "Lo mejor de la música regional mexicana en un programa imperdible.",
   },
   {
-    id: "TU_ID_AQUI_5",
+    id: "LoVkFxWievk",
     title: "Entrevista Especial",
     description: "Conversamos con personalidades destacadas de Contepec y Michoacán.",
   },
   {
-    id: "TU_ID_AQUI_6",
+    id: "XYLwIXEFu0Q",
     title: "Eventos de la Comunidad",
     description: "Cobertura de los eventos más importantes de nuestra región.",
   },
