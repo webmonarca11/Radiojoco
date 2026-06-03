@@ -184,7 +184,17 @@ export default function HomePage() {
                 <SiFacebook className="w-8 h-8 text-[#1877F2]" />
               </div>
               <h3 className="text-4xl font-bold mb-2">+35,000</h3>
-              <p className="text-muted-foreground font-medium">Seguidores en Facebook</p>
+              <p className="text-muted-foreground font-medium mb-5">Seguidores en Facebook</p>
+              <a
+                href="https://www.facebook.com/radiomonarca106.7?locale=es_LA"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="link-facebook-page"
+                className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-[#1877F2] hover:bg-[#1565d8] text-white text-sm font-semibold transition-colors"
+              >
+                <SiFacebook className="w-4 h-4" />
+                Visítanos en Facebook
+              </a>
             </motion.div>
 
             <motion.div 
