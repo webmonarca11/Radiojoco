@@ -603,7 +603,7 @@ export default function HomePage() {
                 data-testid={`img-mapa-${index + 1}`}
               >
                 <img
-                  src={`/${img}`}
+                  src={`/${img}?v=1`}
                   alt={`Mapa de cobertura ${index + 1}`}
                   className="w-full h-auto rounded-lg shadow-md object-cover"
                 />
