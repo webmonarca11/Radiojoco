@@ -280,7 +280,7 @@ export default function HomePage() {
               <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform">
                 <SiFacebook className="w-8 h-8 text-[#1877F2]" />
               </div>
-              <h3 className="text-4xl font-bold mb-2">+35,000</h3>
+              <h3 className="text-4xl font-bold mb-2">+10,000</h3>
               <p className="text-muted-foreground font-medium mb-5">
                 Seguidores en Facebook
               </p>
