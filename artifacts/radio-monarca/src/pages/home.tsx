@@ -132,8 +132,8 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center justify-center pt-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/80 to-background z-10" />
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/10 via-transparent to-transparent z-10" />
+          <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/75 to-background z-10" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/15 via-transparent to-transparent z-10" />
           <img
             src="/hero-bg.png"
             alt="Paisaje de Jocotitlán, Estado de México"
