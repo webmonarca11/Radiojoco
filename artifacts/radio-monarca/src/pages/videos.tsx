@@ -6,7 +6,7 @@ import { Radio, ArrowLeft } from "lucide-react";
 const videos = [
   {
     id: "JF3fUOGfFkk",
-    title: "CONTEPEC MICHOACÁN",
+    title: "JOCOTITLÁN, ESTADO DE MÉXICO",
     description: "¡Te esperamos con el corazón abierto!",
   },
   {
@@ -16,7 +16,7 @@ const videos = [
   },
   {
     id: "Wjo5ukOz1ZI",
-    title: "📍 Hecho en Contepec",
+    title: "📍 Hecho en Jocotitlán",
     description: "Un par de hermanas preparan deliciosos platillos de auténtica comida casera.",
   },
   {
@@ -27,12 +27,12 @@ const videos = [
   {
     id: "LoVkFxWievk",
     title: "Entrevista Especial 📬",
-    description: "Don Wilfrido Juan, el agente de correos de Contepec, nos relató su propia historia…",
+    description: "Una historia de vida relatada desde nuestra comunidad en Jocotitlán…",
   },
   {
     id: "XYLwIXEFu0Q",
-    title: "🌟 Hecho en Contepec: Restaurante Monarca 🍽️",
-    description: "Un platillo irresistible, preparado con ingredientes frescos y el auténtico sazón de manos 100% contepequenses.",
+    title: "🌟 Hecho en Jocotitlán 🍽️",
+    description: "Un platillo irresistible, preparado con ingredientes frescos y el auténtico sazón de nuestra comunidad.",
   },
 ];
 
@@ -46,7 +46,7 @@ export default function VideosPage() {
           <div className="flex items-center gap-3">
             <Radio className="w-8 h-8 text-primary" />
             <span className="font-serif text-2xl font-bold tracking-wide">
-              Monarca <span className="text-primary font-sans text-lg">106.7 FM</span>
+              Radio Comunitaria Joco <span className="text-primary font-sans text-lg">106.9 FM</span>
             </span>
           </div>
           <Link
@@ -74,7 +74,7 @@ export default function VideosPage() {
             Nuestros <span className="text-primary">Videos</span>
           </h1>
           <p className="text-muted-foreground text-lg max-w-xl mx-auto">
-            Revive los mejores momentos de Radio Monarca 106.7 FM — transmisiones, entrevistas y eventos de nuestra comunidad.
+            Revive los mejores momentos de Radio Comunitaria Joco 106.9 FM (XHSCCT) — transmisiones, entrevistas y eventos de nuestra comunidad.
           </p>
         </motion.div>
       </section>
@@ -116,7 +116,7 @@ export default function VideosPage() {
       {/* Footer */}
       <footer className="border-t border-white/5 py-8">
         <div className="container mx-auto px-6 text-center text-muted-foreground text-sm">
-          © {new Date().getFullYear()} Radio Monarca XHSCAL. Todos los derechos reservados.
+          © {new Date().getFullYear()} Radio Comunitaria Joco XHSCCT. Todos los derechos reservados.
         </div>
       </footer>
     </div>

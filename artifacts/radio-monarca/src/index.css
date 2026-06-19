@@ -52,34 +52,34 @@
 
 :root {
   --background: 0 0% 7%;
-  --foreground: 30 20% 95%;
+  --foreground: 90 10% 95%;
 
   --card: 0 0% 9%;
-  --card-foreground: 30 20% 95%;
-  --card-border: 24 10% 15%;
+  --card-foreground: 90 10% 95%;
+  --card-border: 137 10% 15%;
 
   --popover: 0 0% 9%;
-  --popover-foreground: 30 20% 95%;
-  --popover-border: 24 10% 15%;
+  --popover-foreground: 90 10% 95%;
+  --popover-border: 137 10% 15%;
 
-  --primary: 24 76% 50%;
+  --primary: 137 55% 30%;
   --primary-foreground: 0 0% 100%;
 
-  --secondary: 33 93% 65%;
+  --secondary: 41 85% 55%;
   --secondary-foreground: 0 0% 10%;
 
   --muted: 0 0% 15%;
-  --muted-foreground: 30 10% 65%;
+  --muted-foreground: 90 5% 65%;
 
-  --accent: 33 93% 65%;
+  --accent: 41 85% 55%;
   --accent-foreground: 0 0% 10%;
 
   --destructive: 0 84% 60%;
   --destructive-foreground: 0 0% 100%;
 
-  --border: 24 10% 15%;
-  --input: 24 10% 15%;
-  --ring: 24 76% 50%;
+  --border: 137 10% 15%;
+  --input: 137 10% 15%;
+  --ring: 137 55% 30%;
 
   --radius: 0.5rem;
   --sidebar-primary-border: hsl(var(--sidebar-primary));
@@ -94,34 +94,34 @@
 
 .dark {
   --background: 0 0% 7%;
-  --foreground: 30 20% 95%;
+  --foreground: 90 10% 95%;
 
   --card: 0 0% 9%;
-  --card-foreground: 30 20% 95%;
-  --card-border: 24 10% 15%;
+  --card-foreground: 90 10% 95%;
+  --card-border: 137 10% 15%;
 
   --popover: 0 0% 9%;
-  --popover-foreground: 30 20% 95%;
-  --popover-border: 24 10% 15%;
+  --popover-foreground: 90 10% 95%;
+  --popover-border: 137 10% 15%;
 
-  --primary: 24 76% 50%;
+  --primary: 137 55% 30%;
   --primary-foreground: 0 0% 100%;
 
-  --secondary: 33 93% 65%;
+  --secondary: 41 85% 55%;
   --secondary-foreground: 0 0% 10%;
 
   --muted: 0 0% 15%;
-  --muted-foreground: 30 10% 65%;
+  --muted-foreground: 90 5% 65%;
 
-  --accent: 33 93% 65%;
+  --accent: 41 85% 55%;
   --accent-foreground: 0 0% 10%;
 
   --destructive: 0 84% 60%;
   --destructive-foreground: 0 0% 100%;
 
-  --border: 24 10% 15%;
-  --input: 24 10% 15%;
-  --ring: 24 76% 50%;
+  --border: 137 10% 15%;
+  --input: 137 10% 15%;
+  --ring: 137 55% 30%;
   --opaque-button-border-intensity: 9;
 }
 

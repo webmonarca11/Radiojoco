@@ -81,8 +81,8 @@ export default function HomePage() {
           <div className="flex items-center gap-3">
             <Radio className="w-8 h-8 text-primary" />
             <span className="font-serif text-2xl font-bold tracking-wide">
-              Monarca{" "}
-              <span className="text-primary font-sans text-lg">106.7 FM</span>
+              Radio Comunitaria Joco{" "}
+              <span className="text-primary font-sans text-lg">106.9 FM</span>
             </span>
           </div>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
@@ -136,7 +136,7 @@ export default function HomePage() {
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/10 via-transparent to-transparent z-10" />
           <img
             src="/hero-bg.png"
-            alt="Monarch butterflies over Michoacán"
+            alt="Paisaje de Jocotitlán, Estado de México"
             className="w-full h-full object-cover opacity-60"
           />
         </div>
@@ -152,7 +152,7 @@ export default function HomePage() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
               </span>
-              Transmitiendo desde Contepec, Michoacán
+              Transmitiendo desde Jocotitlán, Estado de México
             </div>
 
             <h1 className="text-3xl sm:text-4xl md:text-7xl font-serif font-bold mb-6 leading-tight break-words">
@@ -163,8 +163,8 @@ export default function HomePage() {
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
-              Conectando historias, música e identidad. Somos la voz de
-              Contepec, acompañándote todos los días.
+              Medio comunitario que defiende derechos humanos, equidad de género
+              y la preservación de la cultura de Jocotitlán.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
@@ -226,30 +226,29 @@ export default function HomePage() {
                 Nuestra Esencia
               </h2>
               <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
-                Radio Monarca no es solo una estación de radio; es el puente que
-                une a nuestra comunidad. Profundamente arraigados en Contepec,
-                llevamos con orgullo la identidad michoacana en cada
-                transmisión.
+                Radio Comunitaria Joco es un medio comunitario comprometido con
+                la defensa de los derechos humanos y la equidad de género,
+                arraigado profundamente en la vida y la cultura de Jocotitlán.
               </p>
               <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
-                Como la mariposa que nos da nombre, nuestra señal viaja llevando
-                música, noticias y compañía a cada hogar, negocio y familia que
-                sintoniza el 106.7 FM.
+                Nuestra señal viaja llevando música, noticias y compañía a cada
+                hogar, negocio y familia que sintoniza el 106.9 FM (XHSCCT),
+                preservando la identidad y las tradiciones de nuestra comunidad.
               </p>
 
               <div className="grid grid-cols-2 gap-6">
                 <div className="border border-white/10 p-6 rounded-xl bg-background/50">
                   <Activity className="w-8 h-8 text-primary mb-4" />
-                  <h3 className="font-bold text-xl mb-2">100% Local</h3>
+                  <h3 className="font-bold text-xl mb-2">100% Comunitaria</h3>
                   <p className="text-sm text-muted-foreground">
-                    Recomendada por la comunidad de Contepec.
+                    La voz de la comunidad de Jocotitlán.
                   </p>
                 </div>
                 <div className="border border-white/10 p-6 rounded-xl bg-background/50">
                   <Target className="w-8 h-8 text-primary mb-4" />
                   <h3 className="font-bold text-xl mb-2">Cultura</h3>
                   <p className="text-sm text-muted-foreground">
-                    Preservando nuestra identidad michoacana.
+                    Preservando la identidad de Jocotitlán.
                   </p>
                 </div>
               </div>
@@ -286,7 +285,7 @@ export default function HomePage() {
                 Seguidores en Facebook
               </p>
               <a
-                href="https://www.facebook.com/radiomonarca106.7?locale=es_LA"
+                href="https://www.facebook.com/radiocomunitariajoco"
                 target="_blank"
                 rel="noopener noreferrer"
                 data-testid="link-facebook-page"
@@ -352,9 +351,9 @@ export default function HomePage() {
                 Impulsa tu Negocio
               </h2>
               <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
-                Anúnciate en Radio Monarca y llega a miles de oyentes en la
-                región. Ofrecemos spots publicitarios profesionales, menciones
-                en vivo y cobertura en nuestras redes sociales.
+                Anúnciate en Radio Comunitaria Joco y llega a miles de oyentes
+                en la región. Ofrecemos spots publicitarios profesionales,
+                menciones en vivo y cobertura en nuestras redes sociales.
               </p>
 
               <ul className="space-y-4 mb-8">
@@ -508,11 +507,7 @@ export default function HomePage() {
                   <div>
                     <h4 className="font-bold text-lg mb-1">Dirección</h4>
                     <p className="text-muted-foreground leading-relaxed">
-                      Calle Libertad, Cuartel Cuarto S/N
-                      <br />
-                      Colonia El Jagüey, C.P. 61020
-                      <br />
-                      Contepec, Michoacán de Ocampo, México
+                      Jocotitlán, Estado de México, México
                     </p>
                   </div>
                 </div>
@@ -527,10 +522,10 @@ export default function HomePage() {
                     </h4>
                     <p className="text-muted-foreground">
                       <a
-                        href="tel:+527225599836"
+                        href="tel:+527122223346"
                         className="hover:text-primary transition-colors"
                       >
-                        +52 722 559 9836
+                        712 222 3346
                       </a>
                     </p>
                   </div>
@@ -546,10 +541,10 @@ export default function HomePage() {
                     </h4>
                     <p className="text-muted-foreground">
                       <a
-                        href="mailto:lamonarca95.7fm@gmail.com"
+                        href="mailto:radiocomunitariajoco@gmail.com"
                         className="hover:text-primary transition-colors"
                       >
-                        lamonarca95.7fm@gmail.com
+                        radiocomunitariajoco@gmail.com
                       </a>
                     </p>
                   </div>
@@ -559,14 +554,14 @@ export default function HomePage() {
 
             <div className="h-[400px] rounded-2xl overflow-hidden border border-white/10 shadow-xl bg-card">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14981.650800366668!2d-100.16521575000002!3d19.95751995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d34208a0d24e5b%3A0xc3c941d8e09f583f!2sContepec%2C%20Mich.!5e0!3m2!1sen!2smx!4v1709660000000!5m2!1sen!2smx"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15077.123456789!2d-99.78500000000001!3d19.71500000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cd8c0b9b9b9b9b%3A0x0!2sJocotitl%C3%A1n%2C%20M%C3%A9x.!5e0!3m2!1ses!2smx!4v1709660000000!5m2!1ses!2smx"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen={true}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Mapa de Contepec Michoacán"
+                title="Mapa de Jocotitlán, Estado de México"
               ></iframe>
             </div>
           </div>
@@ -589,7 +584,7 @@ export default function HomePage() {
               Mapa de <span className="text-primary">Cobertura</span>
             </h2>
             <p className="text-muted-foreground text-lg max-w-xl mx-auto">
-              Consulta las zonas donde puedes sintonizar Radio Monarca 106.7 FM con mayor claridad.
+              Consulta las zonas donde puedes sintonizar Radio Comunitaria Joco 106.9 FM (XHSCCT) con mayor claridad.
             </p>
           </motion.div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -620,13 +615,13 @@ export default function HomePage() {
             <div className="flex items-center gap-3">
               <Radio className="w-6 h-6 text-primary" />
               <span className="font-serif text-xl font-bold tracking-wide">
-                Monarca{" "}
-                <span className="text-primary font-sans text-sm">106.7 FM</span>
+                Radio Comunitaria Joco{" "}
+                <span className="text-primary font-sans text-sm">106.9 FM</span>
               </span>
             </div>
 
             <p className="text-muted-foreground text-sm">
-              © {new Date().getFullYear()} Radio Monarca XHSCAL. Todos los
+              © {new Date().getFullYear()} Radio Comunitaria Joco XHSCCT. Todos los
               derechos reservados.
             </p>
 
@@ -645,13 +640,13 @@ export default function HomePage() {
       {/* Hidden Audio Stream */}
       <audio
         ref={audioRef}
-        src="https://stream-178.zeno.fm/i7ldby582iruv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJpN2xkYnk1ODJpcnV2IiwiaG9zdCI6InN0cmVhbS0xNzguemVuby5mbSIsInJ0dGwiOjUsImp0aSI6InhLX29RbEt4UlNPTXhUcDlDMFliOHciLCJpYXQiOjE3ODA1MjQ5OTYsImV4cCI6MTc4MDUyNTA1Nn0.fXgyxkfnkJApnOi8TJw_EYkSX0K35afYD1tse9YkkSs"
+        src="https://stream.zeno.fm/ologvvrpjmrvv"
         preload="none"
       />
 
       {/* Floating WhatsApp Button */}
       <a
-        href="https://wa.me/527225599836"
+        href="https://wa.me/527122223346"
         target="_blank"
         rel="noopener noreferrer"
         data-testid="link-whatsapp-float"
