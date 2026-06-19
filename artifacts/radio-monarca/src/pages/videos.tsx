@@ -5,9 +5,9 @@ import { Radio, ArrowLeft, Youtube } from "lucide-react";
 import { SiFacebook } from "react-icons/si";
 
 const youtubeVideo = {
-  id: "JF3fUOGfFkk",
-  title: "JOCOTITLÁN, ESTADO DE MÉXICO",
-  description: "¡Te esperamos con el corazón abierto!",
+  id: "og6jnwJboE0",
+  title: "Testimonio de Deyadira González",
+  description: "¡Radio Comunitaria Joco, Edomex.!",
 };
 
 const facebookVideos = [
@@ -44,8 +44,8 @@ const facebookVideos = [
   },
   {
     href: "https://www.facebook.com/reel/1904641253784968",
-    title: "Reel — Radio Comunitaria Joco",
-    description: "Contenido destacado de nuestra estación comunitaria.",
+    title: "🧡 Hoy en Radio Joco 106.9 FM nos unimos al Día Naranja.",
+    description: "La violencia contra la mujer no se justifica.",
   },
 ];
 
