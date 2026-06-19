@@ -13,47 +13,53 @@ const youtubeVideo = {
 const facebookVideos = [
   {
     // PEGA TU LINK DE FACEBOOK AQUI
-    href: "https://www.facebook.com/radiocomunitariajoco/videos/000000000000001",
-    title: "Video Facebook 1",
-    description: "Transmisión especial de Radio Comunitaria Joco.",
+    href: "https://www.facebook.com/reel/1596586461672678?locale=es_LA",
+    title: "Desde 1820 ya teníamos Ayuntamiento",
+    description:
+      "Antes de que México terminara de ser una nación libre e independiente, Jocotitlán ya sabía organizarse y gobernarse con dignidad.",
   },
   {
     // PEGA TU LINK DE FACEBOOK AQUI
-    href: "https://www.facebook.com/radiocomunitariajoco/videos/000000000000002",
-    title: "Video Facebook 2",
-    description: "Entrevista en vivo desde los estudios de la estación.",
+    href: "https://www.facebook.com/reel/1441061310539274?locale=es_LA",
+    title: "📍 Ruta Mexiquense",
+    description: "¿Sabías que en un solo lugar puedes encontrar de TODO?",
   },
   {
     // PEGA TU LINK DE FACEBOOK AQUI
-    href: "https://www.facebook.com/radiocomunitariajoco/videos/000000000000003",
-    title: "Video Facebook 3",
-    description: "Evento comunitario cubierto por Radio Comunitaria Joco.",
+    href: "https://www.facebook.com/reel/10001395233206631?locale=es_LA",
+    title: "Un tesoro de fe y historia en el corazón de Jocotitlán",
+    description: "La iglesia de Jesús Nazareno, construida en el siglo XVI, no solo fue el primer templo de la comunidad",
   },
   {
     // PEGA TU LINK DE FACEBOOK AQUI
-    href: "https://www.facebook.com/radiocomunitariajoco/videos/000000000000004",
-    title: "Video Facebook 4",
-    description: "Programa especial con invitados de la comunidad.",
+    href: "https://www.facebook.com/reel/1817828938998302?locale=es_LA",
+    title: "Ruta Mexiquense: Hoy estuvimos en el corazón de Jocotitlán",
+    description: "Doña Agustina teje sueños y crea obras de arte. ¡Descubre Joco y déjate sorprender!✨",
   },
   {
     // PEGA TU LINK DE FACEBOOK AQUI
-    href: "https://www.facebook.com/radiocomunitariajoco/videos/000000000000005",
-    title: "Video Facebook 5",
-    description: "Cobertura de festividades locales de Jocotitlán.",
+    href: "https://www.facebook.com/reel/1541865720527326?locale=es_LA",
+    title: "🌶️🔥 RUTA MEXIQUENSE 🔥🌶️",
+    description: "Hoy visitamos “Las Enchiladas Las Kanijas” en el centro de Jocotitlán.",
+  },
+  {
+    href: "https://www.facebook.com/reel/1904641253784968",
+    title: "Reel — Radio Comunitaria Joco",
+    description: "Contenido destacado de nuestra estación comunitaria.",
   },
 ];
 
 export default function VideosPage() {
   return (
     <div className="min-h-[100dvh] bg-background selection:bg-primary/30 selection:text-primary">
-
       {/* Navbar */}
       <nav className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-white/5">
         <div className="container mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <Radio className="w-8 h-8 text-primary" />
             <span className="font-serif text-2xl font-bold tracking-wide">
-              Radio Comunitaria Joco <span className="text-primary font-sans text-lg">106.9 FM</span>
+              Radio Comunitaria Joco{" "}
+              <span className="text-primary font-sans text-lg">106.9 FM</span>
             </span>
           </div>
           <Link
@@ -81,7 +87,9 @@ export default function VideosPage() {
             Nuestros <span className="text-primary">Videos</span>
           </h1>
           <p className="text-muted-foreground text-lg max-w-xl mx-auto">
-            Revive los mejores momentos de Radio Comunitaria Joco 106.9 FM (XHSCCT) — transmisiones, entrevistas y eventos de nuestra comunidad.
+            Revive los mejores momentos de Radio Comunitaria Joco 106.9 FM
+            (XHSCCT) — transmisiones, entrevistas y eventos de nuestra
+            comunidad.
           </p>
         </motion.div>
       </section>
@@ -166,7 +174,8 @@ export default function VideosPage() {
       {/* Footer */}
       <footer className="border-t border-white/5 py-8">
         <div className="container mx-auto px-6 text-center text-muted-foreground text-sm">
-          © {new Date().getFullYear()} Radio Comunitaria Joco XHSCCT. Todos los derechos reservados.
+          © {new Date().getFullYear()} Radio Comunitaria Joco XHSCCT. Todos los
+          derechos reservados.
         </div>
       </footer>
     </div>

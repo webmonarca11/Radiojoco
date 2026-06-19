@@ -156,9 +156,9 @@ export default function HomePage() {
             </div>
 
             <h1 className="text-3xl sm:text-4xl md:text-7xl font-serif font-bold mb-6 leading-tight break-words">
-              El Latido de <br />
+              La presencia de <br />
               <span className="text-primary sm:text-transparent sm:bg-clip-text sm:bg-gradient-to-r sm:from-primary sm:to-accent">
-                Nuestra Tierra
+                Nuestra Identidad
               </span>
             </h1>
 
