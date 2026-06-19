@@ -1,38 +1,45 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "wouter";
-import { Radio, ArrowLeft } from "lucide-react";
+import { Radio, ArrowLeft, Youtube } from "lucide-react";
+import { SiFacebook } from "react-icons/si";
 
-const videos = [
+const youtubeVideo = {
+  id: "JF3fUOGfFkk",
+  title: "JOCOTITLÁN, ESTADO DE MÉXICO",
+  description: "¡Te esperamos con el corazón abierto!",
+};
+
+const facebookVideos = [
   {
-    id: "JF3fUOGfFkk",
-    title: "JOCOTITLÁN, ESTADO DE MÉXICO",
-    description: "¡Te esperamos con el corazón abierto!",
+    // PEGA TU LINK DE FACEBOOK AQUI
+    href: "https://www.facebook.com/radiocomunitariajoco/videos/000000000000001",
+    title: "Video Facebook 1",
+    description: "Transmisión especial de Radio Comunitaria Joco.",
   },
   {
-    id: "BeydC_RBRJg",
-    title: "Gran Fiesta en Honor a Padre Jesús",
-    description: "Familias, amigos y visitantes se unieron en un ambiente lleno de fe, música y tradición.",
+    // PEGA TU LINK DE FACEBOOK AQUI
+    href: "https://www.facebook.com/radiocomunitariajoco/videos/000000000000002",
+    title: "Video Facebook 2",
+    description: "Entrevista en vivo desde los estudios de la estación.",
   },
   {
-    id: "Wjo5ukOz1ZI",
-    title: "📍 Hecho en Jocotitlán",
-    description: "Un par de hermanas preparan deliciosos platillos de auténtica comida casera.",
+    // PEGA TU LINK DE FACEBOOK AQUI
+    href: "https://www.facebook.com/radiocomunitariajoco/videos/000000000000003",
+    title: "Video Facebook 3",
+    description: "Evento comunitario cubierto por Radio Comunitaria Joco.",
   },
   {
-    id: "Hpuxv4TuqnM",
-    title: "¿UN OSO BAILAR?🐻",
-    description: "Tiburcio, el oso acróbata que llegó al pueblo con los misteriosos “húngaros”",
+    // PEGA TU LINK DE FACEBOOK AQUI
+    href: "https://www.facebook.com/radiocomunitariajoco/videos/000000000000004",
+    title: "Video Facebook 4",
+    description: "Programa especial con invitados de la comunidad.",
   },
   {
-    id: "LoVkFxWievk",
-    title: "Entrevista Especial 📬",
-    description: "Una historia de vida relatada desde nuestra comunidad en Jocotitlán…",
-  },
-  {
-    id: "XYLwIXEFu0Q",
-    title: "🌟 Hecho en Jocotitlán 🍽️",
-    description: "Un platillo irresistible, preparado con ingredientes frescos y el auténtico sazón de nuestra comunidad.",
+    // PEGA TU LINK DE FACEBOOK AQUI
+    href: "https://www.facebook.com/radiocomunitariajoco/videos/000000000000005",
+    title: "Video Facebook 5",
+    description: "Cobertura de festividades locales de Jocotitlán.",
   },
 ];
 
@@ -79,31 +86,74 @@ export default function VideosPage() {
         </motion.div>
       </section>
 
-      {/* Video Grid */}
+      {/* YouTube Video — destacado */}
+      <section className="container mx-auto px-6 pb-12">
+        <div className="flex items-center gap-3 mb-6">
+          <Youtube className="w-6 h-6 text-[#FF0000]" />
+          <h2 className="text-xl font-bold">Destacado en YouTube</h2>
+        </div>
+        <motion.div
+          initial={{ opacity: 0, y: 24 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="bg-card border border-white/5 rounded-2xl overflow-hidden hover:border-primary/30 transition-colors group max-w-2xl"
+          data-testid="card-video-youtube"
+        >
+          <div className="relative w-full aspect-video bg-black">
+            <iframe
+              src={`https://www.youtube.com/embed/${youtubeVideo.id}`}
+              title={youtubeVideo.title}
+              className="absolute inset-0 w-full h-full"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+          <div className="p-5">
+            <h3 className="font-semibold text-lg mb-1 group-hover:text-primary transition-colors">
+              {youtubeVideo.title}
+            </h3>
+            <p className="text-muted-foreground text-sm leading-relaxed">
+              {youtubeVideo.description}
+            </p>
+          </div>
+        </motion.div>
+      </section>
+
+      {/* Facebook Videos */}
       <section className="container mx-auto px-6 pb-24">
+        <div className="flex items-center gap-3 mb-6">
+          <SiFacebook className="w-6 h-6 text-[#1877F2]" />
+          <h2 className="text-xl font-bold">Videos de Facebook</h2>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {videos.map((video, index) => (
+          {facebookVideos.map((video, index) => (
             <motion.div
-              key={video.id}
+              key={index}
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.1, duration: 0.5 }}
               className="bg-card border border-white/5 rounded-2xl overflow-hidden hover:border-primary/30 transition-colors group"
-              data-testid={`card-video-${index}`}
+              data-testid={`card-video-facebook-${index}`}
             >
-              <div className="relative aspect-video bg-black">
+              {/* Iframe responsivo de Facebook — reemplaza el href del objeto facebookVideos arriba */}
+              <div className="relative w-full aspect-video bg-black">
                 <iframe
-                  src={`https://www.youtube.com/embed/${video.id}`}
-                  title={video.title}
-                  className="w-full h-full"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  src={`https://www.facebook.com/plugins/video.php?href=${encodeURIComponent(video.href)}&show_text=0&mute=0`}
+                  className="absolute inset-0 w-full h-full"
+                  style={{ border: "none", overflow: "hidden" }}
+                  scrolling="no"
+                  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
                   allowFullScreen
+                  title={video.title}
                 />
               </div>
               <div className="p-5">
-                <h3 className="font-semibold text-lg mb-1 group-hover:text-primary transition-colors">
-                  {video.title}
-                </h3>
+                <div className="flex items-center gap-2 mb-1">
+                  <SiFacebook className="w-4 h-4 text-[#1877F2] shrink-0" />
+                  <h3 className="font-semibold text-lg group-hover:text-primary transition-colors">
+                    {video.title}
+                  </h3>
+                </div>
                 <p className="text-muted-foreground text-sm leading-relaxed">
                   {video.description}
                 </p>
