@@ -7,7 +7,7 @@ import { SiFacebook } from "react-icons/si";
 const youtubeVideo = {
   id: "og6jnwJboE0",
   title: "Testimonio de Deyadira González",
-  description: "¡Radio Comunitaria Joco, Edomex.!",
+  description: "Radio Comunitaria Joco, Edomex.",
 };
 
 const facebookVideos = [
