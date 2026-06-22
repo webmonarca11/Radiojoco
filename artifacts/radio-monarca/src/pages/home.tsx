@@ -640,8 +640,11 @@ export default function HomePage() {
       {/* Hidden Audio Stream */}
       <audio
         ref={audioRef}
-        src="https://stream.zeno.fm/ologvvrpjmrvv"
+        src="https://stream-176.surfernetwork.com/urolw166hpqtv"
         preload="none"
+        controls={false}
+        playsInline
+        x-webkit-airplay="allow"
       />
 
       {/* Floating WhatsApp Button */}
